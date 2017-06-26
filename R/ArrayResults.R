@@ -253,7 +253,7 @@ getCountOfArrayResults <- function(conn, study_id) {
                         bs.study_accession in ('", study_id, "') AND 
                         bs.biosample_accession=be.biosample_accession AND
                         be.expsample_accession=es2fi.expsample_accession AND
-                        es2fi.data_format like \"%Gene_Expression%\" AND
+                        fi.purpose like \"%Gene_Expression%\" AND
                         es2fi.file_info_id = fi.file_info_id", 
                     sep = "")
 
