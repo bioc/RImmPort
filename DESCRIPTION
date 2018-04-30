@@ -1,7 +1,7 @@
 Package: RImmPort
 Type: Package
 Title: RImmPort: Enabling Ready-for-analysis Immunology Research Data
-Version: 1.8.0
+Version: 1.9.0
 Author: Ravi Shankar <rshankar@stanford.edu>
 Maintainer: Zicheng Hu <Zicheng.Hu@ucsf.edu>, Ravi Shankar <rshankar@stanford.edu>
 URL: http://bioconductor.org/packages/RImmPort/
